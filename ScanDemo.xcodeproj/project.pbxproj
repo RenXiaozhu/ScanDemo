@@ -21,9 +21,9 @@
 		3D07F6031D74182D0006A1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D07F6021D74182D0006A1D8 /* Foundation.framework */; };
 		3D35FEB01D7569FF00D9B805 /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D35FEAF1D7569FF00D9B805 /* ScanView.m */; };
 		3D35FEB31D756A2300D9B805 /* ScanUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D35FEB21D756A2300D9B805 /* ScanUI.m */; };
-		3D35FEB51D756F4400D9B805 /* bounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D35FEB41D756F4400D9B805 /* bounds.png */; };
 		3D35FEB71D7578FD00D9B805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D35FEB61D7578FD00D9B805 /* CoreGraphics.framework */; };
 		3D35FEB91D75790300D9B805 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D35FEB81D75790300D9B805 /* QuartzCore.framework */; };
+		3D35FEC01D75B4F900D9B805 /* bounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D35FEBF1D75B4F900D9B805 /* bounds.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +69,9 @@
 		3D35FEAF1D7569FF00D9B805 /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
 		3D35FEB11D756A2300D9B805 /* ScanUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanUI.h; sourceTree = "<group>"; };
 		3D35FEB21D756A2300D9B805 /* ScanUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanUI.m; sourceTree = "<group>"; };
-		3D35FEB41D756F4400D9B805 /* bounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bounds.png; path = ../../../info/jhz/bounds.png; sourceTree = "<group>"; };
 		3D35FEB61D7578FD00D9B805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D35FEB81D75790300D9B805 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D35FEBF1D75B4F900D9B805 /* bounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bounds.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,7 @@
 		3D35FEAD1D7569A400D9B805 /* ScanViews */ = {
 			isa = PBXGroup;
 			children = (
-				3D35FEB41D756F4400D9B805 /* bounds.png */,
+				3D35FEBF1D75B4F900D9B805 /* bounds.png */,
 				3D35FEAE1D7569FF00D9B805 /* ScanView.h */,
 				3D35FEAF1D7569FF00D9B805 /* ScanView.m */,
 				3D35FEB11D756A2300D9B805 /* ScanUI.h */,
@@ -303,7 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D35FEB51D756F4400D9B805 /* bounds.png in Resources */,
+				3D35FEC01D75B4F900D9B805 /* bounds.png in Resources */,
 				3D07F5DA1D74131B0006A1D8 /* LaunchScreen.storyboard in Resources */,
 				3D07F5D71D74131B0006A1D8 /* Assets.xcassets in Resources */,
 				3D07F5D21D74131B0006A1D8 /* Main.storyboard in Resources */,
